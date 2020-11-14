@@ -1,0 +1,32 @@
+
+.status-bar {
+    display: flex;
+    justify-content: center;
+    padding: 5px 3px;
+    /* justify-content: space-between;  */
+}
+
+/* div 태그의 크기가 서로 맞지 않아 실제 컨텐츠는 가운데에 정렬되지 않은 경우 css hack을 사용*/
+/* width를 33%씩 준 뒤 처리 */
+.status-bar__column {
+    width: 33%;
+}
+
+.status-bar__column:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+
+.status-bar__column:last-child{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.status-bar__column:first-child span {
+    margin-right: 5px;
+}
+
+.status-bar__column .fa-battery-three-quarters {
+    margin: 0px 5px;
+}
