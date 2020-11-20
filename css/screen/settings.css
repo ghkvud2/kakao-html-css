@@ -1,0 +1,17 @@
+.settings-list__item {
+    padding: 20px 0;
+    border-bottom: var(--main-border);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settings-list__item i {
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.settings-list__item__column__minor{
+    color: rgba(0, 0, 0, 0.4);
+}
