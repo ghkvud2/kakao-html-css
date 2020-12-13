@@ -10,6 +10,18 @@
     font-size: 25px;
     font-weight: 600;
 }
+.alternative-header__column {
+    width: 33%;
+}
+
+.alternative-header__column:nth-child(2) {
+    text-align: center;
+}
+
+.alternative-header__column:last-child {
+    display: flex;
+    justify-content: flex-end;
+}
 
 .alternative-header__column:first-child{
     margin-right: auto;
