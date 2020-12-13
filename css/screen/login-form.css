@@ -1,11 +1,9 @@
-
-
 .login-form {
     margin: 0px 30px;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
+    justify-content: center;
+    /* align-items: center; */
 }
 
 .login-form input::placeholder {
@@ -19,9 +17,9 @@
     margin-bottom: 25px;
 }
 
-.login-form input:not([type="submit"]){
+.login-form input:not([type="submit"]) {
     border-bottom: 1px solid rgba(0, 0, 0, .3);
-    transition: border-color 0.3s ease-in-out;    
+    transition: border-color 0.3s ease-in-out;
 }
 
 .login-form input:focus {
